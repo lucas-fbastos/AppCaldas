@@ -1,0 +1,18 @@
+page-home {
+    .no-scroll .scroll-content{
+        overflow: hidden;
+      }
+    
+      .logItem{
+         margin-top: 30vh 
+      }
+      .bgImg{
+          background-image: url('../assets/imgs/bg.jpg'); 
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover
+      }
+      .card{
+          border-radius: 20px;
+      }
+}
