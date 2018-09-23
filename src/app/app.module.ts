@@ -1,3 +1,6 @@
+import { Apagaimovel } from './../pages/apagaimovel/apagaimovel';
+import { Alteradados } from './../pages/alteradados/alteradados';
+import { Infoperfil } from './../pages/infoperfil/infoperfil';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -10,7 +13,10 @@ import { HomePage } from '../pages/home/home';
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    Infoperfil,
+    Alteradados,
+    Apagaimovel
   ],
   imports: [
     BrowserModule,
@@ -19,7 +25,10 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    Infoperfil,
+    Alteradados,
+    Apagaimovel
   ],
   providers: [
     StatusBar,
